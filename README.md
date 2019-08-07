@@ -1,5 +1,4 @@
-# Design-card
-## Web-card design.
+# Web-card design.
 **tech include:**
 - HTML/CSS
 - PixelPerfect
