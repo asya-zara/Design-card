@@ -1,0 +1,151 @@
+/*font-family: 'Open Sans';*/
+* {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.main-page {
+    width: 1200px;
+    height: 860px;
+    left: 50%;
+    top: 50%;
+   -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    -webkit-box-shadow: 0px 11px 22px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 11px 22px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 11px 22px -5px rgba(0,0,0,0.75);
+
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+
+    position: relative;
+
+}
+
+.right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+
+}
+
+.foto-left-top {
+    background-image: url(img%20bg.png);
+    width: 50%;
+    height: 50%;
+    position: fixed;
+}
+
+.foto-right-bottom {
+    background-image: url(img%20bg2.png);
+    width: 50%;
+    height: 50%;
+    bottom: 0;
+    float: right;
+    position: fixed;
+}
+
+.text-left {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 555px;
+    float: left;
+    margin-left: 180px;
+    text-align: center;
+    margin-right: 185px;
+    line-height: 1.2;
+    
+
+
+
+
+
+}
+
+.text-right {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 134px;
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 5px;
+    
+
+
+}
+
+.startnow {
+    width: 140px;
+    height: 40px;
+    border-style: solid;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    background-color: #e27c2a;
+    color: #fff;
+    border-color: #e27c2a;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 6px;
+    margin-top: 40px;
+    margin-left:-5px;
+    text-transform: capitalize;
+    
+
+}
+
+.startnow1 {
+    width: 140px;
+    height: 40px;
+    border-style: solid;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    background-color: #e27c2a;
+    color: #fff;
+    border-color: #e27c2a;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 7px;
+    padding-left: 9px;
+    margin-top: 39px;
+    margin-left: 5px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.startnow:hover {
+    background-color: #fff;
+    color: #e27c2a;
+}
+
+.startnow1:hover {
+    background-color: #fff;
+    color: #e27c2a;
+
+}
